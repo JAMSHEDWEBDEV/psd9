@@ -1,0 +1,208 @@
+/*// X-Small devices (portrait phones, less than 576px)*/
+/*// No media query for `xs` since this is the default in Bootstrap*/
+
+@media (min-width: 320px) and (max-width: 575px){
+
+/*navigation part responsive code start*/
+
+.navbar-nav .nav-item .nav-link{
+	padding: 10px 0;
+	text-align: center;
+}
+.navbar-nav .nav-item .nav-link:hover{
+	background-color: gray;
+
+}
+
+/*navigation part responsive code end*/
+
+/*banner part responsive code start*/
+
+.banner_contant h4{
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+/*banner part responsive code end*/
+
+/*about part responsive code start*/
+
+.about_contant{
+	margin-top: -50px;
+	text-align: center;
+}
+
+
+/*about part responsive code end*/
+
+/*service part responsive code start*/
+
+.service_main{
+	height: 200px;
+	width: 280px;
+	margin-left: 20px;
+}
+
+/*service part responsive code end*/
+
+/*blog part responsive code start*/
+
+.blog_contant{
+	text-align: center;
+}
+.blog_contant p{
+	text-align: justify;
+}
+.blog_contant h3{
+	margin-bottom: 30px;
+}
+
+/*blog part responsive code end*/
+
+/*contact part responsive code start*/
+
+.contact_contant button{
+	margin: 50px 0 0 -250px;
+}
+
+/*contact part responsive code end*/
+
+/*footer part responsive code start*/
+
+.footer_icon{
+	margin: 60px 0 0 50px;
+	display: inline-grid;
+}
+.footer_right{
+	margin-top: -160px;
+}
+.footer_right p{
+    font-size: 13px;
+}
+.footer_left{
+	border: none;
+	border-bottom: 1px solid white;
+}
+
+/*footer part responsive code end*/
+
+
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+/*navigation part responsive code start*/
+
+
+.navbar-nav .nav-item .nav-link{
+	padding: 10px 0;
+	text-align: center;
+}
+.navbar-nav .nav-item .nav-link:hover{
+	background-color: teal;
+	color: cyan;
+}
+
+/*navigation part responsive code end*/
+
+/*about part responsive code start*/
+
+.about_contant{
+	margin-top: -30px;
+	text-align: center;
+}
+
+/*about part responsive code end*/
+
+/*blog part responsive code start*/
+
+.blog_contant h3{
+	margin-bottom: 30px;
+}
+
+/*blog part responsive code end*/
+
+/*footer part responsive code start*/
+
+.footer_left{
+	border: none;
+	border-bottom: 2px dotted teal;
+	margin: 0 0 20px 40px;
+	width: 400px;
+}
+
+/*footer part responsive code end*/
+
+
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+/*navigation part responsive code start*/
+
+
+.navbar-nav .nav-item .nav-link{
+	padding: 10px 0;
+	text-align: center;
+}
+.navbar-nav .nav-item .nav-link:hover{
+	background-color: pink;
+	color: teal;
+}
+
+/*navigation part responsive code end*/
+
+/*about part responsive code start*/
+
+.about_image img{
+	margin-top: 150px;
+}
+
+/*about part responsive code end*/
+
+/*service part responsive code start*/
+
+.middle_gap{
+	margin-top: -50px;
+}
+
+/*service part responsive code end*/
+
+/*blog part responsive code start*/
+
+.blog_contant h3{
+	margin-bottom: 30px;
+}
+
+/*blog part responsive code end*/
+
+
+
+}
+
+/*// Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+
+
+
+}
+
+/*// X-Large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+
+
+
+
+
+}
+
+/*// XX-Large devices (larger desktops, 1400px and up)*/
+
+@media (min-width: 1400px) and (max-width: px) {...}

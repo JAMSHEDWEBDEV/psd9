@@ -1,0 +1,323 @@
+*{
+	margin: 0;
+	padding: 0;
+	outline: 0;
+}
+ul,ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+
+/*navigation part css start*/
+
+.navbar-nav{
+	padding: 20px 0;
+}
+.navbar-nav .nav-item .nav-link{
+	transition: all linear .4s;
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	font-weight:500;
+	text-transform: uppercase;
+	padding: 0 20px;
+	color: black;
+}
+.navbar-nav .nav-item .nav-link.active{
+	color: #31d7ce;
+}
+.navbar-nav .nav-item .nav-link:hover{
+	color: #31d7ce;
+	transition: all linear .4s;
+}
+
+/*navigation part css end*/
+
+/*banner part css start*/
+
+#banner{
+	background: url(../images/banner_image.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.banner_overlay{
+	padding: 321px 0;
+}
+.banner_contant h4{
+	color: #31d7ce;
+	font-family: 'Poppins', sans-serif;
+	font-size: 70px;
+	font-weight:700;
+	text-align: center;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+.banner_button{
+	text-align: center;
+}
+.banner_button button{
+	text-align: center;
+	height: 35px;
+	width: 130px;
+	border: 1px solid white;
+	background-color: transparent;
+	color: #31d7ce;
+	border-radius: 50px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	font-weight:500;
+	text-transform: uppercase;
+}
+
+/*banner part css end*/
+
+/*about part css start*/
+
+.about_image img{
+	margin: 100px 0;
+	border: 1px solid gray; 
+}
+.about_contant{
+	margin: 120px 0 100px 0;
+}
+.about_contant h4{
+	font-family: 'Poppins', sans-serif;
+	font-size: 30px;
+	font-weight:600;
+	text-transform: uppercase;
+
+}
+.about_contant p{
+	font-family: 'Poppins', sans-serif;
+	font-size: 15px;
+	font-weight:600;
+	color: #8a8a8a;
+	margin: 25px 0;
+}
+.about_contant button{
+	height: 30px;
+	width: 110px;
+	border-radius: 50px;
+	background-color: #0dac88;
+	color: white;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	border: none;
+}
+
+
+/*about part css end*/
+
+/*service part css start*/
+
+.service_heading h1{
+	font-size: 40px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	text-align: center;
+	margin: 20px 0;
+}
+.service_contant h4{
+    font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin-left: 10px;
+}
+.service_contant p{
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	margin-left: 10px;
+}
+.service_main{
+	display: flex;
+	padding: 45px 30px 30px;
+	margin: 30px 0 100px;
+	transition: all linear .4s;
+}
+.service_main:hover{
+    box-shadow: 1px 1px 5px 1px  #0dac88;
+    transition: all linear .4s;
+}
+
+/*service part css end*/
+
+/*gallery part css start*/
+
+
+.gallery_heading h1{
+	text-align: center;
+	font-size: 40px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	margin-bottom: 40px;
+
+}
+.gallery_image{
+	position: relative;
+}
+.gallery_overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.7);
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	transform:scale(0);
+	transition: all linear .5s;
+}
+.gallery_overlay h4{
+    font-family: 'Poppins', sans-serif;
+	font-size: 10px;
+	font-weight:400;
+	color: white;
+}
+.gallery_image:hover .gallery_overlay{
+    transform: scale(1);
+    transition: all linear .5s;
+}
+
+/*gallery part css end*/
+
+/*counter part css start*/
+
+#counter{
+	background: url(../images/counter_image.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 60px 0;
+}
+.counter_overlay{
+	padding: 40px 0 30px;
+}
+.counter_contant{
+	text-align: center;
+}
+.counter_contant img{
+	margin-bottom: 15px;
+}
+.counter_contant h4{
+    font-family: 'Poppins', sans-serif;
+	font-size: 30px;
+	font-weight:600;
+	color: white;
+}
+.counter_contant h2{
+	font-family: 'Poppins', sans-serif;
+	font-size: 15px;
+	font-weight:500;
+	color:#d4d4d4;
+}
+
+
+/*counter part css end*/
+
+/*blog part css start*/
+
+.blog_contant h1{
+   font-family: 'Poppins', sans-serif;
+	font-size: 18px;
+	font-weight:600;
+	margin: 40px 0 20px;
+	text-transform: uppercase;
+}
+.blog_contant p{
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	color: #808080;
+}
+.blog_contant h3{
+	font-family: 'Poppins', sans-serif;
+	font-size: 13px;
+	font-weight:600;
+	text-transform: uppercase;
+}
+
+/*blog part css end*/
+
+/*contact part css start*/
+
+#contact{
+	text-align: center;
+	background-color: #50d18d;
+	margin-top: 80px;
+}
+.contact_contant{
+     display: inline-flex;
+     padding: 30px 0;
+}
+.contact_contant h1{
+	font-family: 'Poppins', sans-serif;
+	font-size: 25px;
+	font-weight:500;
+	color: white;
+}
+.contact_contant button{
+	height: 40px;
+	width: 110px;
+	border: none;
+	background-color: #4be694;
+	border-radius: 50px;
+	font-size: 13px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	color: white;
+	margin-left: 30px;
+}
+
+/*contact part css end*/
+
+/*footer part css start*/
+
+#footer{
+	background-color: #000415;
+	padding: 20px 0;
+}
+.footer_left{
+	text-align: center;
+	border-right: 1px solid white;
+	height: 120px;
+	margin-top: 10px;
+}
+.footer_left img{
+	margin: 30px 0 10px -120px;
+}
+.footer_left p{
+	font-family: 'Poppins', sans-serif;
+	font-size: 18px;
+	font-weight:400;
+	color: white;
+}
+.footer_icon img{
+	margin: 10px 0 50px 0;
+}
+.footer_icon{
+	margin-left: 100px;
+}
+.footer_right p{
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 500;
+	color: white;
+	margin: 5px 0 40px 100px;
+}
+
+.footer_copy p{
+	text-align: center;
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	color: white;
+	margin-top: 20px;
+}
+
+/*footer part css end*/
